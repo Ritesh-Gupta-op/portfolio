@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+}
+.profie-pic{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid white;
+}
+.flip{
+  animation: coinFlip 1s ease-in-out;
+}
+@keyframes coinFlip {
+  0%{
+    transform:rotateY(0deg);
+  }
+  50%{
+    transform:rotateY(180deg);
+  }
+  100%
+  {
+    transform:(360deg);
+  }
+  
+}
