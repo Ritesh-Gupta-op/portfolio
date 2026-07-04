@@ -24,7 +24,7 @@ const projects = [
     title: "ENTITY COMPONENT MANAGER",
     desc: "A lightweight and modular Entity Component System (ECS) manager designed to simplify game development by decoupling data (components) from behavior (systems).",
     link: "https://github.com/Ritesh-Gupta-op/Entity_component_manager",
-    tags: ["C++", "VS STUDIO"],
+    tags: ["", "VS STUDIO"],
   },
   {
     title: "TIC TAC TOE",
@@ -156,7 +156,7 @@ function App() {
                 <p className="text-xs uppercase tracking-[0.35em] text-white/60">Profile</p>
                 <h2 className="text-xl font-semibold text-white">Ritesh Gupta</h2>
                 <p className="text-sm text-zinc-300">Full-Stack Developer</p>
-              
+                <p className="mt-1 text-xs text-zinc-400">rites...@gmail.com</p>
               </div>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
